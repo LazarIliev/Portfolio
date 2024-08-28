@@ -11,7 +11,7 @@ import { useEffect } from 'react'
 import { avatarAnimation } from 'config/animations'
 
 const AvatarImages = {
-  DarkMode: '/KL_avatar.png',
+  DarkMode: '/Portfolio/KL_avatar.png',
   LightMode: './KL_avatar_light.png',
 }
 
@@ -27,6 +27,7 @@ const Avatar = () => {
     AvatarImages.LightMode,
     AvatarImages.DarkMode
   )
+  
   useEffect(() => {
     // Some nice preloading and caching
     const images = [AvatarImages.DarkMode, AvatarImages.LightMode]
